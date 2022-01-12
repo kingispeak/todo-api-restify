@@ -1,0 +1,26 @@
+{
+  "name": "todo-app",
+  "version": "0.1.0",
+  "description": "Building a Node.js RESTful API server with restify and mongodb.",
+  "author": {
+    "name": "Fong",
+    "email": "kingispeak@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kingispeak/todo-api-restify"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">= 10.16"
+  },
+  "keywords": [],
+  "scripts": {
+    "serve": "node server.js"
+  },
+  "dependencies": {
+    "restify": "^8.6.0",
+    "restify-errors": "^8.0.2"
+  },
+  "devDependencies": {}
+}
